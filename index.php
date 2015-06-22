@@ -8,4 +8,9 @@ $log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::W
 $log->addWarning('Foo');
 $log->addWarning('Bar');
 
+
+use HelloWorld\SayHello;
+
+echo SayHello::world();
+
 ?>

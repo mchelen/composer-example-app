@@ -1,11 +1,18 @@
 {
- "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/gjedeer/celery-php"
-        }
-    ],
+  "repositories": [{
+    "type": "package",
+        "package": {
+            "name": "mchelen/hello-world",
+            "version": "0.0.1",
+            "source": {
+                    "url": "https://github.com/mchelen/composer-example-package.git",
+                "type": "git",
+            "reference": "0.0.1"
+            }
+            }
+    }],
   "require": {
-      "monolog/monolog": "1.0.*"
+      "monolog/monolog": "1.0.*",
+      "mchelen/hello-world": "0.0.*"
   }
 }
