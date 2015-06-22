@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d43765dae73d593564c1fd8eb72a17d6",
+    "hash": "dc2e95280b36872b1d083c33faf67dfe",
     "packages": [
         {
             "name": "mchelen/hello-world",
-            "version": "0.0.1",
+            "version": "0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mchelen/composer-example-package.git",
-                "reference": "0.0.1"
+                "reference": "0.0.4"
             },
             "type": "library"
         },

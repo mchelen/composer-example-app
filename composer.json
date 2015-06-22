@@ -3,11 +3,11 @@
     "type": "package",
         "package": {
             "name": "mchelen/hello-world",
-            "version": "0.0.1",
+            "version": "0.0.4",
             "source": {
                     "url": "https://github.com/mchelen/composer-example-package.git",
                 "type": "git",
-            "reference": "0.0.1"
+            "reference": "0.0.4"
             }
             }
     }],
