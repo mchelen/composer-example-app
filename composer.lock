@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea922652bb1e5ae147c9631619699818",
+    "hash": "b387c1354fbb02e3753c6abdc6c7bfea",
     "packages": [
         {
             "name": "mchelen/hello-world",
@@ -12,9 +12,35 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mchelen/composer-example-package.git",
-                "reference": "0.0.4"
+                "reference": "d0f4e2319ffaccb9ebffb26a9c3bfafd1daa3878"
             },
-            "type": "library"
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mchelen/composer-example-package/zipball/d0f4e2319ffaccb9ebffb26a9c3bfafd1daa3878",
+                "reference": "d0f4e2319ffaccb9ebffb26a9c3bfafd1daa3878",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HelloWorld": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Michael Chelen",
+                    "email": "michael.chelen@gmail.com"
+                }
+            ],
+            "description": "My first Composer project",
+            "support": {
+                "source": "https://github.com/mchelen/composer-example-package/tree/0.0.4",
+                "issues": "https://github.com/mchelen/composer-example-package/issues"
+            },
+            "time": "2015-06-22 20:10:40"
         },
         {
             "name": "monolog/monolog",

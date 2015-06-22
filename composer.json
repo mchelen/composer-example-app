@@ -1,21 +1,10 @@
 {
-  "repositories": [{
-    "type": "package",
-    "package": {
-        "name": "mchelen/hello-world",
-        "version": "0.0.4",
-        "source": {
-                "url": "https://github.com/mchelen/composer-example-package.git",
-            "type": "git",
-        "reference": "0.0.4"
-        },
-        "autoload": {
-          "psr-0": {
-            "HelloWorld": "src/"
-          }
-        }
-      }
-    }],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/mchelen/composer-example-package"
+    }
+  ],
   "require": {
       "monolog/monolog": "1.0.*",
       "mchelen/hello-world": "0.0.*"
