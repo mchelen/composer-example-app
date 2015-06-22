@@ -1,0 +1,11 @@
+{
+ "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/gjedeer/celery-php"
+        }
+    ],
+  "require": {
+      "monolog/monolog": "1.0.*"
+  }
+}
