@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b387c1354fbb02e3753c6abdc6c7bfea",
+    "hash": "74e3d5939b8e2cac01b41ecf8d91e9d8",
     "packages": [
         {
             "name": "mchelen/hello-world",
-            "version": "0.0.4",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mchelen/composer-example-package.git",
-                "reference": "d0f4e2319ffaccb9ebffb26a9c3bfafd1daa3878"
+                "reference": "4953af615812a88295f01fee9660fb3eb8c222d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mchelen/composer-example-package/zipball/d0f4e2319ffaccb9ebffb26a9c3bfafd1daa3878",
-                "reference": "d0f4e2319ffaccb9ebffb26a9c3bfafd1daa3878",
+                "url": "https://api.github.com/repos/mchelen/composer-example-package/zipball/4953af615812a88295f01fee9660fb3eb8c222d9",
+                "reference": "4953af615812a88295f01fee9660fb3eb8c222d9",
                 "shasum": ""
             },
             "require": {
@@ -25,8 +25,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "HelloWorld": "src/"
+                "psr-4": {
+                    "mchelen\\HelloWorld\\": "src"
                 }
             },
             "authors": [
@@ -37,10 +37,10 @@
             ],
             "description": "My first Composer project",
             "support": {
-                "source": "https://github.com/mchelen/composer-example-package/tree/0.0.4",
+                "source": "https://github.com/mchelen/composer-example-package/tree/0.1.1",
                 "issues": "https://github.com/mchelen/composer-example-package/issues"
             },
-            "time": "2015-06-22 20:10:40"
+            "time": "2015-06-25 17:05:46"
         },
         {
             "name": "monolog/monolog",

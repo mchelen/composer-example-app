@@ -8,7 +8,7 @@ $log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::W
 $log->addWarning('Foo');
 
 // this package is coming from git
-use HelloWorld\SayHello;
+use mchelen\HelloWorld\SayHello;
 echo SayHello::world();
 
 ?>

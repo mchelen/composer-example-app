@@ -7,6 +7,6 @@
   ],
   "require": {
       "monolog/monolog": "1.0.*",
-      "mchelen/hello-world": "0.0.*"
+      "mchelen/hello-world": "0.1.*"
   }
 }
